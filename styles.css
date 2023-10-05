@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: #d6b42a;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container_all{
+    background-color: rgb(72, 66, 66);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.label_busqueda{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+}
+
+.busqueda_all{
+    display: flex;
+    color: #d6b42a;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.barra_busqueda{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.busqueda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_datos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.datos{
+    color: white;
+}
+
+.add_contacts{
+    width: 200px;
+    margin-top: 15px;
+    height: 35px;
+}
+
+.add_and_datos_container{
+    display: flex;
+}
+
+.datos_container{
+    color: black;
+    font-weight: 100;
+}
+
+.contactos_container{
+    display: flex;
+    width: 100%;
+    overflow-y: auto;
+    flex-direction: column;
+    height: 100%;
+}
+
+.btn_datos{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(214, 214, 214);
+    
+}
+
+.labels_contactos{
+    display: flex;
+    padding: 5px;
+    background-color: #d6b42a;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+}
+
+.datos_title{
+    color: rgb(58, 49, 49);
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 2px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.edit_buttons{
+    margin-left: 10px;
+}
+
+
+
+button{
+    color: black;
+    background-color: #d6b42a;
+    width: 80px;
+    height: 30px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.input_form{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color: #aba5a5;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+input{
+    border: none;
+    width: 200px;
+    height: 30px;
+    background-color: #aba5a5;
+    padding: 5px;
+    color: black;
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 25px;
+}
