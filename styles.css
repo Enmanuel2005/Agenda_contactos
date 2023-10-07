@@ -12,6 +12,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: grey;
 }
 
 .container_all{
@@ -22,12 +23,17 @@ body{
     padding: 20px;
 }
 
+.table_buttons{
+    width: 100%;
+}
+
 .label_busqueda{
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding-right: 35px;
 }
+
 
 .busqueda_all{
     display: flex;
@@ -45,7 +51,6 @@ body{
 
 .busqueda{
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -67,11 +72,8 @@ body{
 
 .add_and_datos_container{
     display: flex;
-}
-
-.datos_container{
-    color: black;
-    font-weight: 100;
+    flex-direction: row;
+    width: 100%;
 }
 
 .contactos_container{
@@ -80,6 +82,27 @@ body{
     overflow-y: auto;
     flex-direction: column;
     height: 100%;
+}
+
+th{
+    background-color: #d6b42a;
+    color: black;
+    font-weight: bold;
+    width: 20px;
+    position: sticky;
+    top: 0;
+}
+
+td{
+    margin: 50px;
+    padding: 5px;
+    color: black;
+    font-weight: 100;
+}
+
+.general_row:hover{
+    cursor: pointer;
+    background-color: rgb(163, 149, 149);
 }
 
 .btn_datos{
@@ -92,25 +115,6 @@ body{
     
 }
 
-.labels_contactos{
-    display: flex;
-    padding: 5px;
-    background-color: #d6b42a;
-    justify-content: flex-end;
-    position: sticky;
-    top: 0;
-}
-
-.datos_title{
-    color: rgb(58, 49, 49);
-    margin-left: 40px;
-    margin-right: 40px;
-    padding: 2px;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-}
-
 .botones{
     display: flex;
     flex-direction: row;
@@ -121,8 +125,6 @@ body{
 .edit_buttons{
     margin-left: 10px;
 }
-
-
 
 button{
     color: black;
@@ -142,6 +144,11 @@ button:hover{
     background-color: #aba5a5;
     margin-top: 10px;
     margin-bottom: 5px;
+}
+
+.input_busqueda{
+    height: 28px;
+    
 }
 
 input{
